@@ -9,15 +9,9 @@ import linkedinIcon from "../media/linkedinicon.png";
 const Footer = () => {
   const CustomContainer = styled(Container)(({ theme }) => ({}));
 
-  const FirstRowFlexbox = styled(Box)(({ theme }) => ({}));
-
-  const SecondRowFlexbox = styled(Box)(({ theme }) => ({}));
-
-  const FooterBox = styled(Box)(({ theme }) => ({}));
-
   const IconBox = styled(Box)(({ theme }) => ({}));
 
-  const FooterLink = styled(Typography)(({ theme }) => ({}));
+  const FooterLink = styled("span")(({ theme }) => ({}));
 
   return <></>;
 };
